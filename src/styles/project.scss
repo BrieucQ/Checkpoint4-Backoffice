@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://blenderartists.org/uploads/default/original/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b.jpg");
+}
+
+.form {
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        color: white;
+        input {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            margin: 20px 10px 20px 10px;
+        } button {
+            margin-top: 40px;
+        }
+}
+
+.projects {
+    margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 40px;
+            color: white;
+            font-family: 'Sriracha', cursive;
+            margin-top: 100px;
+            margin-bottom: 50px;
+    img {
+        width: 20%;
+    }
+}
